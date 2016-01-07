@@ -68,4 +68,6 @@ theme: next
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:lxpgw/lxpgw.github.io.git
+  branch: master
